@@ -1,0 +1,7 @@
+{
+    "config.jade.plugin_jadeaddontfmgcompat.multimeter": "TFMG Multimeter",
+    "config.jade.plugin_jadeaddontfmgcompat.multimeter.requires_multimeter": "Requires Multimeter",
+    "config.jade.plugin_jadeaddontfmgcompat.multimeter.requires_goggles": "Requires Goggles",
+    "config.jade.plugin_jadeaddontfmgcompat.multimeter.detailed": "Detailed-Only (Sneak)",
+    "jade.modName.jadeaddontfmgcompat": "TFMG Multimeter"
+}
