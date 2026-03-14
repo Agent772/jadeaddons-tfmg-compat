@@ -1,7 +1,6 @@
 package com.agent772.jadeaddontfmgcompat;
 
 import com.drmangotea.tfmg.content.electricity.base.IElectric;
-import com.drmangotea.tfmg.content.electricity.measurement.MultimeterItem;
 import com.simibubi.create.content.equipment.goggles.GoggleOverlayRenderer;
 import com.simibubi.create.content.equipment.goggles.GogglesItem;
 import net.minecraft.core.BlockPos;
@@ -53,7 +52,7 @@ public class MultimeterProvider implements IBlockComponentProvider {
             return;
         }
 
-        if (config.get(TFMGPlugin.REQUIRES_MULTIMETER) && !MultimeterItem.isHeldByPlayer(accessor.getPlayer())) {
+        if (config.get(TFMGPlugin.REQUIRES_MULTIMETER) && !CuriosCompat.isHoldingMultimeterAnywhere(accessor.getPlayer())) {
             return;
         }
 

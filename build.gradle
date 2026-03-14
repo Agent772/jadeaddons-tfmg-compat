@@ -137,6 +137,10 @@ dependencies {
     compileOnly("maven.modrinth:create-tfmg:${tfmg_version}") { transitive = false }
     localRuntime("maven.modrinth:create-tfmg:${tfmg_version}")
 
+    // Curios — optional; enables multimeter detection in curio belt slots
+    compileOnly("maven.modrinth:curios-continuation:${curios_version}") { transitive = false }
+    localRuntime("maven.modrinth:curios-continuation:${curios_version}") { transitive = false }
+
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
