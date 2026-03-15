@@ -1,9 +1,6 @@
 <div align="center">
 
-<!-- Replace with your logo -->
-<br/>
-<br/>
-<br/>
+<img src="Logo.png" alt="Jade Addon: TFMG Compat Logo" width="128"/>
 
 # Jade Addon: TFMG Compat
 
