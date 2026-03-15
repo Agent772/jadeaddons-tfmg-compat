@@ -18,9 +18,9 @@
 
 ## What is this?
 
-[Create: The Factory Must Grow (TFMG)](https://www.curseforge.com/minecraft/mc-mods/create-the-factory-must-grow) adds electric machines that show voltage, current, and power usage through a dedicated screen-space overlay — TFMG's own "goggles" view.
+[Create: The Factory Must Grow (TFMG)](https://www.curseforge.com/minecraft/mc-mods/create-industry) adds electric machines that show voltage, current, and power usage through a dedicated screen-space overlay — TFMG's own "goggles" view.
 
-[Jade Addons](https://www.curseforge.com/minecraft/mc-mods/jade-addons-forge) brings Create's goggle readout into [Jade](https://www.curseforge.com/minecraft/mc-mods/jade)'s block tooltip panel. But out of the box it knows nothing about TFMG's electrical system.
+[Jade Addons](https://www.curseforge.com/minecraft/mc-mods/jade-addons) brings Create's goggle readout into [Jade](https://www.curseforge.com/minecraft/mc-mods/jade  )'s block tooltip panel. But out of the box it knows nothing about TFMG's electrical system.
 
 **This mod fills that gap.** It hooks TFMG's Multimeter data directly into Jade's tooltip so you can inspect any electric machine just by looking at it — the same way you already inspect every other Create block.
 
